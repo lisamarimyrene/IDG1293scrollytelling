@@ -2,6 +2,7 @@
 
 ## About the project
 Link to the project website: https://lisamarimyrene.github.io/IDG1293scrollytelling/ 
+You may need to zoom in or out your browser to make the view fit.
 
 ### Theme: Global Warming
 In this project we are making a scrollytelling story that has a socially impactful theme about Global Warming and how it affects the climate. 
