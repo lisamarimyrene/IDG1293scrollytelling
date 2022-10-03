@@ -1,0 +1,104 @@
+//Styling: Frames
+
+@use './colors';
+
+.frames--frame1 {
+    opacity: 0;
+    background-color: colors.$background-spring;
+
+    .ground--ground1 {
+        fill: #79D186;
+    }
+}
+
+.frames--frame2 {
+    opacity: 0;
+    background-color: colors.$background-spring;
+
+    .ground--ground2 {
+        fill: #79D186;
+    }
+}
+
+.frames--frame3 {
+    opacity: 0;
+    background-color: colors.$background-summerBlue;
+
+    .ground--ground3 {
+        fill: #8EEA81;
+    }
+
+}
+
+.frames--frame4 {
+    opacity: 0;
+    background-color: colors.$background-summerRed;
+
+    .ground--ground4 {
+        fill: #8EEA81;
+    }
+
+}
+
+.frames--frame5 {
+    opacity: 0;
+    background-color: colors.$background-summerBlue;
+
+    .ground--ground5 {
+        fill: #8EEA81;
+    }
+}
+
+.frames--frame6 {
+    opacity: 0;
+    background-color: colors.$background-autumnLight;
+
+    .ground--ground6 {
+        fill: #E0A53D;
+    }
+}
+
+.frames--frame7 {
+    opacity: 0;
+    background-color: colors.$background-autumnDark;
+
+    .ground--ground7 {
+        fill: #E0A53D;
+    }
+}
+
+.frames--frame8 {
+    opacity: 0;
+    background-color: colors.$background-autumnDark;
+
+    .ground--ground8 {
+        fill: #E0A53D;
+    }
+}
+
+.frames--frame9 {
+    opacity: 0;
+    background-color: colors.$background-winter;
+
+    .ground--ground9 {
+        fill: #DAF6F7;
+    }
+}
+
+.frames--frame10 {
+    opacity: 0;
+    background-color: colors.$background-winter;
+
+    .ground--ground10 {
+        fill: #DAF6F7;
+    }
+}
+
+.frames--frame11 {
+    opacity: 0;
+    background-color: colors.$background-winter;
+
+    .ground--ground11 {
+        fill: #DAF6F7;
+    }
+}

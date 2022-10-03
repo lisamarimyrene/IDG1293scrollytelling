@@ -1,0 +1,104 @@
+@use './colors';
+
+//Media Quieries to reduce animations
+
+@media (prefers-reduced-motion) {
+
+
+    img {
+        animation: none !important;
+    }
+
+    .frames__raindrops,
+    .frames__snowflakes {
+        visibility: hidden;
+    }
+
+    .frames__cloud {
+        left: 250px;
+    }
+
+    .frames__bunny {
+        margin-top: 440px !important;
+        margin-left: 200px !important;
+
+    }
+
+    .frames__bird--1 {
+        margin-left: 100px !important;
+    }
+
+    .heatwave--wave1,
+    .heatwave--wave3,
+    .heatwave--wave2 {
+        margin-top: 35% !important;
+    }
+
+    .frames__tornado {
+        margin-left: 85% !important;
+        width: 180px !important;
+
+    }
+
+    .frames__lightning,
+    .frames__lightning--small {
+        margin-left: 25% !important;
+
+    }
+}
+
+//Media Quieries for dark mode
+
+@media (prefers-color-scheme:dark) {
+
+
+    .frames--frame1, .frames--frame2{
+        background-color:colors.$background-springDark;
+
+        .ground--ground1, .ground--ground2 {
+            fill: colors.$fill-springDark;
+        }  
+    } 
+    
+    .frames--frame3, .frames--frame4, .frames--frame5 {
+        background-color:colors.$background-summerDark;
+
+        .ground--ground3, .ground--ground4, .ground--ground5 {
+
+            fill: colors.$fill-summerDark;
+        }
+    }
+
+    .frames--frame6, .frames--frame7, .frames--frame8 {
+        background-color:colors.$background-fallDark;
+
+        .ground--ground6, .ground--ground7, .ground--ground8 {
+            fill: colors.$fill-fallDark;
+        }
+    }
+
+    .frames--frame9, .frames--frame10, .frames--frame11 {
+        background-color: colors.$background-winterDark;
+
+        .ground--ground9, .ground--ground10, .ground--ground11 {
+            fill: colors.$fill-winterDark;
+        }
+     }
+
+    .frames--frame1, 
+    .frames--frame2, 
+    .frames--frame3, 
+    .frames--frame4, 
+    .frames--frame5, 
+    .frames--frame6, 
+    .frames--frame7, 
+    .frames--frame8, 
+    .frames--frame9, 
+    .frames--frame10, 
+    .frames--frame11 {
+        .frames__text {
+            color:white; 
+        }
+    }
+ }
+
